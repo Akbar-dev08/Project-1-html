@@ -1,15 +1,14 @@
-body{
-    background: purple;
-}
-
-.title{
-    color: white;
-}
-
-.top-menu{
+body {
+    margin: 0;
     display: flex;
-    gap: 30px;
-    .list-menu a{
-        color: #fff;
-    }
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Optional background color */
+}
+
+h1 {
+    font-size: 3rem; /* Adjust font size */
+    color: #333; /* Text color */
+    text-align: center; /* Ensures text alignment */
 }
